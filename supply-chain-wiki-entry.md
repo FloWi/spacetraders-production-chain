@@ -1,4 +1,8 @@
+# Supply Chain
+
 Based on the data from [@eseidel](https://github.com/eseidel/space_traders/blob/main/packages/cli/static_data/exports.json)
+
+2024-02-12: Adapted to latest changes announced by [space-admiral on discord](https://discord.com/channels/792864705139048469/1206286843579080807/1206289418898382919) and in the [changelog](https://docs.spacetraders.io/resources/changelog#february-10-2024).
 
 ## ADVANCED_CIRCUITRY
 
@@ -14,8 +18,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## AI_MAINFRAMES
 
@@ -34,8 +36,6 @@ graph LR;
 
 ```
 
-
-
 ## ALUMINUM
 
 ```mermaid
@@ -44,8 +44,6 @@ graph LR;
   ALUMINUM_ORE --> ALUMINUM
 
 ```
-
-
 
 ## AMMUNITION
 
@@ -57,8 +55,6 @@ graph LR;
   IRON_ORE --> IRON
 
 ```
-
-
 
 ## ANTIMATTER
 
@@ -83,8 +79,6 @@ graph LR;
 
 ```
 
-
-
 ## ASSAULT_RIFLES
 
 ```mermaid
@@ -99,8 +93,6 @@ graph LR;
 
 ```
 
-
-
 ## BIOCOMPOSITES
 
 ```mermaid
@@ -114,8 +106,6 @@ graph LR;
   LIQUID_NITROGEN --> FERTILIZERS
 
 ```
-
-
 
 ## BOTANICAL_SPECIMENS
 
@@ -136,8 +126,6 @@ graph LR;
 
 ```
 
-
-
 ## CLOTHING
 
 ```mermaid
@@ -149,8 +137,6 @@ graph LR;
 
 ```
 
-
-
 ## COPPER
 
 ```mermaid
@@ -159,8 +145,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## CULTURAL_ARTIFACTS
 
@@ -179,8 +163,6 @@ graph LR;
   LIQUID_HYDROGEN --> PLASTICS
 
 ```
-
-
 
 ## CYBER_IMPLANTS
 
@@ -205,8 +187,6 @@ graph LR;
 
 ```
 
-
-
 ## DRUGS
 
 ```mermaid
@@ -219,8 +199,6 @@ graph LR;
 
 ```
 
-
-
 ## ELECTRONICS
 
 ```mermaid
@@ -231,8 +209,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## ENGINE_HYPER_DRIVE_I
 
@@ -252,8 +228,6 @@ graph LR;
 
 ```
 
-
-
 ## ENGINE_IMPULSE_DRIVE_I
 
 ```mermaid
@@ -266,8 +240,6 @@ graph LR;
 
 ```
 
-
-
 ## ENGINE_ION_DRIVE_I
 
 ```mermaid
@@ -279,8 +251,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## ENGINE_ION_DRIVE_II
 
@@ -300,8 +270,6 @@ graph LR;
 
 ```
 
-
-
 ## EQUIPMENT
 
 ```mermaid
@@ -313,8 +281,6 @@ graph LR;
   LIQUID_HYDROGEN --> PLASTICS
 
 ```
-
-
 
 ## EXOTIC_MATTER
 
@@ -339,8 +305,6 @@ graph LR;
 
 ```
 
-
-
 ## EXPLOSIVES
 
 ```mermaid
@@ -351,8 +315,6 @@ graph LR;
 
 ```
 
-
-
 ## FABRICS
 
 ```mermaid
@@ -362,8 +324,6 @@ graph LR;
   LIQUID_NITROGEN --> FERTILIZERS
 
 ```
-
-
 
 ## FAB_MATS
 
@@ -376,8 +336,6 @@ graph LR;
 
 ```
 
-
-
 ## FERTILIZERS
 
 ```mermaid
@@ -386,8 +344,6 @@ graph LR;
   LIQUID_NITROGEN --> FERTILIZERS
 
 ```
-
-
 
 ## FIREARMS
 
@@ -402,8 +358,6 @@ graph LR;
 
 ```
 
-
-
 ## FOOD
 
 ```mermaid
@@ -414,8 +368,6 @@ graph LR;
 
 ```
 
-
-
 ## FUEL
 
 ```mermaid
@@ -424,8 +376,6 @@ graph LR;
   HYDROCARBON --> FUEL
 
 ```
-
-
 
 ## GENE_THERAPEUTICS
 
@@ -448,8 +398,6 @@ graph LR;
 
 ```
 
-
-
 ## GOLD
 
 ```mermaid
@@ -459,18 +407,16 @@ graph LR;
 
 ```
 
-
-
 ## GRAVITON_EMITTERS
 
 ```mermaid
 
 graph LR;
   ADVANCED_CIRCUITRY --> GRAVITON_EMITTERS
-  MERITIUM --> GRAVITON_EMITTERS
+  GOLD --> GRAVITON_EMITTERS
   ELECTRONICS --> ADVANCED_CIRCUITRY
   MICROPROCESSORS --> ADVANCED_CIRCUITRY
-  MERITIUM_ORE --> MERITIUM
+  GOLD_ORE --> GOLD
   SILICON_CRYSTALS --> ELECTRONICS
   COPPER --> ELECTRONICS
   SILICON_CRYSTALS --> MICROPROCESSORS
@@ -478,8 +424,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## HOLOGRAPHICS
 
@@ -501,8 +445,6 @@ graph LR;
 
 ```
 
-
-
 ## IRON
 
 ```mermaid
@@ -511,8 +453,6 @@ graph LR;
   IRON_ORE --> IRON
 
 ```
-
-
 
 ## JEWELRY
 
@@ -527,8 +467,6 @@ graph LR;
   SILVER_ORE --> SILVER
 
 ```
-
-
 
 ## LAB_INSTRUMENTS
 
@@ -546,8 +484,6 @@ graph LR;
   LIQUID_HYDROGEN --> PLASTICS
 
 ```
-
-
 
 ## LASER_RIFLES
 
@@ -568,8 +504,6 @@ graph LR;
 
 ```
 
-
-
 ## MACHINERY
 
 ```mermaid
@@ -579,8 +513,6 @@ graph LR;
   IRON_ORE --> IRON
 
 ```
-
-
 
 ## MEDICINE
 
@@ -596,8 +528,6 @@ graph LR;
 
 ```
 
-
-
 ## MERITIUM
 
 ```mermaid
@@ -606,8 +536,6 @@ graph LR;
   MERITIUM_ORE --> MERITIUM
 
 ```
-
-
 
 ## MICROPROCESSORS
 
@@ -619,8 +547,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## MICRO_FUSION_GENERATORS
 
@@ -641,8 +567,6 @@ graph LR;
 
 ```
 
-
-
 ## MILITARY_EQUIPMENT
 
 ```mermaid
@@ -657,8 +581,6 @@ graph LR;
 
 ```
 
-
-
 ## MODULE_CARGO_HOLD_I
 
 ```mermaid
@@ -670,8 +592,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## MODULE_CARGO_HOLD_II
 
@@ -685,8 +605,6 @@ graph LR;
   IRON_ORE --> IRON
 
 ```
-
-
 
 ## MODULE_CARGO_HOLD_III
 
@@ -709,8 +627,6 @@ graph LR;
 
 ```
 
-
-
 ## MODULE_CREW_QUARTERS_I
 
 ```mermaid
@@ -725,8 +641,6 @@ graph LR;
   LIQUID_NITROGEN --> FERTILIZERS
 
 ```
-
-
 
 ## MODULE_ENVOY_QUARTERS_I
 
@@ -743,8 +657,6 @@ graph LR;
 
 ```
 
-
-
 ## MODULE_FUEL_REFINERY_I
 
 ```mermaid
@@ -758,8 +670,6 @@ graph LR;
 
 ```
 
-
-
 ## MODULE_GAS_PROCESSOR_I
 
 ```mermaid
@@ -771,8 +681,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## MODULE_JUMP_DRIVE_I
 
@@ -791,8 +699,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## MODULE_JUMP_DRIVE_II
 
@@ -813,8 +719,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## MODULE_JUMP_DRIVE_III
 
@@ -838,8 +742,6 @@ graph LR;
 
 ```
 
-
-
 ## MODULE_MICRO_REFINERY_I
 
 ```mermaid
@@ -853,8 +755,6 @@ graph LR;
 
 ```
 
-
-
 ## MODULE_MINERAL_PROCESSOR_I
 
 ```mermaid
@@ -866,8 +766,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## MODULE_ORE_REFINERY_I
 
@@ -881,8 +779,6 @@ graph LR;
   IRON_ORE --> IRON
 
 ```
-
-
 
 ## MODULE_PASSENGER_CABIN_I
 
@@ -898,8 +794,6 @@ graph LR;
   LIQUID_NITROGEN --> FERTILIZERS
 
 ```
-
-
 
 ## MODULE_SCIENCE_LAB_I
 
@@ -922,8 +816,6 @@ graph LR;
 
 ```
 
-
-
 ## MODULE_SHIELD_GENERATOR_I
 
 ```mermaid
@@ -937,8 +829,6 @@ graph LR;
   URANITE_ORE --> URANITE
 
 ```
-
-
 
 ## MODULE_SHIELD_GENERATOR_II
 
@@ -954,8 +844,6 @@ graph LR;
   IRON_ORE --> IRON
 
 ```
-
-
 
 ## MODULE_WARP_DRIVE_I
 
@@ -974,8 +862,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## MODULE_WARP_DRIVE_II
 
@@ -997,8 +883,6 @@ graph LR;
 
 ```
 
-
-
 ## MODULE_WARP_DRIVE_III
 
 ```mermaid
@@ -1018,8 +902,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## MOOD_REGULATORS
 
@@ -1042,8 +924,6 @@ graph LR;
 
 ```
 
-
-
 ## MOUNT_GAS_SIPHON_I
 
 ```mermaid
@@ -1055,8 +935,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## MOUNT_GAS_SIPHON_II
 
@@ -1070,8 +948,6 @@ graph LR;
   IRON_ORE --> IRON
 
 ```
-
-
 
 ## MOUNT_GAS_SIPHON_III
 
@@ -1094,8 +970,6 @@ graph LR;
 
 ```
 
-
-
 ## MOUNT_LASER_CANNON_I
 
 ```mermaid
@@ -1108,8 +982,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## MOUNT_MINING_LASER_I
 
@@ -1124,8 +996,6 @@ graph LR;
 
 ```
 
-
-
 ## MOUNT_MINING_LASER_II
 
 ```mermaid
@@ -1139,8 +1009,6 @@ graph LR;
   IRON_ORE --> IRON
 
 ```
-
-
 
 ## MOUNT_MINING_LASER_III
 
@@ -1165,8 +1033,6 @@ graph LR;
 
 ```
 
-
-
 ## MOUNT_MISSILE_LAUNCHER_I
 
 ```mermaid
@@ -1178,8 +1044,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## MOUNT_SENSOR_ARRAY_I
 
@@ -1197,8 +1061,6 @@ graph LR;
 
 ```
 
-
-
 ## MOUNT_SENSOR_ARRAY_II
 
 ```mermaid
@@ -1215,8 +1077,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## MOUNT_SENSOR_ARRAY_III
 
@@ -1241,8 +1101,6 @@ graph LR;
 
 ```
 
-
-
 ## MOUNT_SURVEYOR_I
 
 ```mermaid
@@ -1258,8 +1116,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## MOUNT_SURVEYOR_II
 
@@ -1277,8 +1133,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## MOUNT_SURVEYOR_III
 
@@ -1301,8 +1155,6 @@ graph LR;
 
 ```
 
-
-
 ## MOUNT_TURRET_I
 
 ```mermaid
@@ -1314,8 +1166,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## NANOBOTS
 
@@ -1338,8 +1188,6 @@ graph LR;
 
 ```
 
-
-
 ## NEURAL_CHIPS
 
 ```mermaid
@@ -1358,8 +1206,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## NOVEL_LIFEFORMS
 
@@ -1380,8 +1226,6 @@ graph LR;
 
 ```
 
-
-
 ## PLASTICS
 
 ```mermaid
@@ -1391,8 +1235,6 @@ graph LR;
 
 ```
 
-
-
 ## PLATINUM
 
 ```mermaid
@@ -1401,8 +1243,6 @@ graph LR;
   PLATINUM_ORE --> PLATINUM
 
 ```
-
-
 
 ## POLYNUCLEOTIDES
 
@@ -1414,18 +1254,15 @@ graph LR;
 
 ```
 
-
-
 ## QUANTUM_DRIVES
 
 ```mermaid
 
 graph LR;
   ADVANCED_CIRCUITRY --> QUANTUM_DRIVES
-  URANITE --> QUANTUM_DRIVES
+  DIAMONDS --> QUANTUM_DRIVES
   ELECTRONICS --> ADVANCED_CIRCUITRY
   MICROPROCESSORS --> ADVANCED_CIRCUITRY
-  URANITE_ORE --> URANITE
   SILICON_CRYSTALS --> ELECTRONICS
   COPPER --> ELECTRONICS
   SILICON_CRYSTALS --> MICROPROCESSORS
@@ -1433,8 +1270,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## QUANTUM_STABILIZERS
 
@@ -1443,11 +1278,9 @@ graph LR;
 graph LR;
   PLATINUM --> QUANTUM_STABILIZERS
   ADVANCED_CIRCUITRY --> QUANTUM_STABILIZERS
-  URANITE --> QUANTUM_STABILIZERS
   PLATINUM_ORE --> PLATINUM
   ELECTRONICS --> ADVANCED_CIRCUITRY
   MICROPROCESSORS --> ADVANCED_CIRCUITRY
-  URANITE_ORE --> URANITE
   SILICON_CRYSTALS --> ELECTRONICS
   COPPER --> ELECTRONICS
   SILICON_CRYSTALS --> MICROPROCESSORS
@@ -1455,8 +1288,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## REACTOR_ANTIMATTER_I
 
@@ -1470,8 +1301,6 @@ graph LR;
 
 ```
 
-
-
 ## REACTOR_CHEMICAL_I
 
 ```mermaid
@@ -1483,8 +1312,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## REACTOR_FISSION_I
 
@@ -1498,8 +1325,6 @@ graph LR;
 
 ```
 
-
-
 ## REACTOR_FUSION_I
 
 ```mermaid
@@ -1512,8 +1337,6 @@ graph LR;
 
 ```
 
-
-
 ## REACTOR_SOLAR_I
 
 ```mermaid
@@ -1525,8 +1348,6 @@ graph LR;
   IRON --> MACHINERY
 
 ```
-
-
 
 ## RELIC_TECH
 
@@ -1547,8 +1368,6 @@ graph LR;
 
 ```
 
-
-
 ## ROBOTIC_DRONES
 
 ```mermaid
@@ -1566,8 +1385,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## SHIP_COMMAND_FRIGATE
 
@@ -1592,8 +1409,6 @@ graph LR;
 
 ```
 
-
-
 ## SHIP_EXPLORER
 
 ```mermaid
@@ -1616,8 +1431,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## SHIP_HEAVY_FREIGHTER
 
@@ -1642,8 +1455,6 @@ graph LR;
 
 ```
 
-
-
 ## SHIP_INTERCEPTOR
 
 ```mermaid
@@ -1666,8 +1477,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## SHIP_LIGHT_HAULER
 
@@ -1692,8 +1501,6 @@ graph LR;
 
 ```
 
-
-
 ## SHIP_LIGHT_SHUTTLE
 
 ```mermaid
@@ -1716,8 +1523,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## SHIP_MINING_DRONE
 
@@ -1742,8 +1547,6 @@ graph LR;
 
 ```
 
-
-
 ## SHIP_ORE_HOUND
 
 ```mermaid
@@ -1767,8 +1570,6 @@ graph LR;
 
 ```
 
-
-
 ## SHIP_PARTS
 
 ```mermaid
@@ -1786,8 +1587,6 @@ graph LR;
 
 ```
 
-
-
 ## SHIP_PLATING
 
 ```mermaid
@@ -1800,8 +1599,6 @@ graph LR;
   IRON_ORE --> IRON
 
 ```
-
-
 
 ## SHIP_PROBE
 
@@ -1826,8 +1623,6 @@ graph LR;
 
 ```
 
-
-
 ## SHIP_REFINING_FREIGHTER
 
 ```mermaid
@@ -1850,8 +1645,6 @@ graph LR;
   COPPER_ORE --> COPPER
 
 ```
-
-
 
 ## SHIP_SIPHON_DRONE
 
@@ -1876,8 +1669,6 @@ graph LR;
 
 ```
 
-
-
 ## SHIP_SURVEYOR
 
 ```mermaid
@@ -1901,8 +1692,6 @@ graph LR;
 
 ```
 
-
-
 ## SILVER
 
 ```mermaid
@@ -1911,8 +1700,6 @@ graph LR;
   SILVER_ORE --> SILVER
 
 ```
-
-
 
 ## SUPERGRAINS
 
@@ -1937,8 +1724,6 @@ graph LR;
 
 ```
 
-
-
 ## URANITE
 
 ```mermaid
@@ -1947,8 +1732,6 @@ graph LR;
   URANITE_ORE --> URANITE
 
 ```
-
-
 
 ## VIRAL_AGENTS
 
@@ -1971,3 +1754,4 @@ graph LR;
 
 ```
 
+Process finished with exit code 0
